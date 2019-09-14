@@ -1,0 +1,23 @@
+{
+  "name": "p-server",
+  "version": "1.0.0",
+  "description": "project server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "web",
+    "server"
+  ],
+  "author": "inga",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.10.2",
+    "morgan": "^1.9.0"
+  }
+}
